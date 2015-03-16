@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E01C6591AB72B2400431E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01C6581AB72B2400431E96 /* main.m */; };
+		1E01C65C1AB72B2400431E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01C65B1AB72B2400431E96 /* AppDelegate.m */; };
+		1E01C65F1AB72B2400431E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01C65E1AB72B2400431E96 /* ViewController.m */; };
+		1E01C6621AB72B2400431E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E01C6601AB72B2400431E96 /* Main.storyboard */; };
+		1E01C6641AB72B2400431E96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E01C6631AB72B2400431E96 /* Images.xcassets */; };
+		1E01C6671AB72B2400431E96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E01C6651AB72B2400431E96 /* LaunchScreen.xib */; };
+		1E01C6731AB72B2400431E96 /* MegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01C6721AB72B2400431E96 /* MegoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E01C66D1AB72B2400431E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E01C64B1AB72B2400431E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E01C6521AB72B2400431E96;
+			remoteInfo = Mego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E01C6531AB72B2400431E96 /* Mego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E01C6571AB72B2400431E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E01C6581AB72B2400431E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E01C65A1AB72B2400431E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E01C65B1AB72B2400431E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E01C65D1AB72B2400431E96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E01C65E1AB72B2400431E96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E01C6611AB72B2400431E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E01C6631AB72B2400431E96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E01C6661AB72B2400431E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E01C66C1AB72B2400431E96 /* MegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E01C6711AB72B2400431E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E01C6721AB72B2400431E96 /* MegoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E01C6501AB72B2400431E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E01C6691AB72B2400431E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E01C64A1AB72B2400431E96 = {
+			isa = PBXGroup;
+			children = (
+				1E01C6551AB72B2400431E96 /* Mego */,
+				1E01C66F1AB72B2400431E96 /* MegoTests */,
+				1E01C6541AB72B2400431E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E01C6541AB72B2400431E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E01C6531AB72B2400431E96 /* Mego.app */,
+				1E01C66C1AB72B2400431E96 /* MegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E01C6551AB72B2400431E96 /* Mego */ = {
+			isa = PBXGroup;
+			children = (
+				1E01C65A1AB72B2400431E96 /* AppDelegate.h */,
+				1E01C65B1AB72B2400431E96 /* AppDelegate.m */,
+				1E01C65D1AB72B2400431E96 /* ViewController.h */,
+				1E01C65E1AB72B2400431E96 /* ViewController.m */,
+				1E01C6601AB72B2400431E96 /* Main.storyboard */,
+				1E01C6631AB72B2400431E96 /* Images.xcassets */,
+				1E01C6651AB72B2400431E96 /* LaunchScreen.xib */,
+				1E01C6561AB72B2400431E96 /* Supporting Files */,
+			);
+			path = Mego;
+			sourceTree = "<group>";
+		};
+		1E01C6561AB72B2400431E96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E01C6571AB72B2400431E96 /* Info.plist */,
+				1E01C6581AB72B2400431E96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E01C66F1AB72B2400431E96 /* MegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E01C6721AB72B2400431E96 /* MegoTests.m */,
+				1E01C6701AB72B2400431E96 /* Supporting Files */,
+			);
+			path = MegoTests;
+			sourceTree = "<group>";
+		};
+		1E01C6701AB72B2400431E96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E01C6711AB72B2400431E96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E01C6521AB72B2400431E96 /* Mego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E01C6761AB72B2400431E96 /* Build configuration list for PBXNativeTarget "Mego" */;
+			buildPhases = (
+				1E01C64F1AB72B2400431E96 /* Sources */,
+				1E01C6501AB72B2400431E96 /* Frameworks */,
+				1E01C6511AB72B2400431E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mego;
+			productName = Mego;
+			productReference = 1E01C6531AB72B2400431E96 /* Mego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E01C66B1AB72B2400431E96 /* MegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E01C6791AB72B2400431E96 /* Build configuration list for PBXNativeTarget "MegoTests" */;
+			buildPhases = (
+				1E01C6681AB72B2400431E96 /* Sources */,
+				1E01C6691AB72B2400431E96 /* Frameworks */,
+				1E01C66A1AB72B2400431E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E01C66E1AB72B2400431E96 /* PBXTargetDependency */,
+			);
+			name = MegoTests;
+			productName = MegoTests;
+			productReference = 1E01C66C1AB72B2400431E96 /* MegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E01C64B1AB72B2400431E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Loona Marianne";
+				TargetAttributes = {
+					1E01C6521AB72B2400431E96 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1E01C66B1AB72B2400431E96 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1E01C6521AB72B2400431E96;
+					};
+				};
+			};
+			buildConfigurationList = 1E01C64E1AB72B2400431E96 /* Build configuration list for PBXProject "Mego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E01C64A1AB72B2400431E96;
+			productRefGroup = 1E01C6541AB72B2400431E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E01C6521AB72B2400431E96 /* Mego */,
+				1E01C66B1AB72B2400431E96 /* MegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E01C6511AB72B2400431E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E01C6621AB72B2400431E96 /* Main.storyboard in Resources */,
+				1E01C6671AB72B2400431E96 /* LaunchScreen.xib in Resources */,
+				1E01C6641AB72B2400431E96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E01C66A1AB72B2400431E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E01C64F1AB72B2400431E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E01C65F1AB72B2400431E96 /* ViewController.m in Sources */,
+				1E01C65C1AB72B2400431E96 /* AppDelegate.m in Sources */,
+				1E01C6591AB72B2400431E96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E01C6681AB72B2400431E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E01C6731AB72B2400431E96 /* MegoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E01C66E1AB72B2400431E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E01C6521AB72B2400431E96 /* Mego */;
+			targetProxy = 1E01C66D1AB72B2400431E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E01C6601AB72B2400431E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E01C6611AB72B2400431E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E01C6651AB72B2400431E96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E01C6661AB72B2400431E96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E01C6741AB72B2400431E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E01C6751AB72B2400431E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E01C6771AB72B2400431E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E01C6781AB72B2400431E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E01C67A1AB72B2400431E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mego.app/Mego";
+			};
+			name = Debug;
+		};
+		1E01C67B1AB72B2400431E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mego.app/Mego";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E01C64E1AB72B2400431E96 /* Build configuration list for PBXProject "Mego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E01C6741AB72B2400431E96 /* Debug */,
+				1E01C6751AB72B2400431E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E01C6761AB72B2400431E96 /* Build configuration list for PBXNativeTarget "Mego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E01C6771AB72B2400431E96 /* Debug */,
+				1E01C6781AB72B2400431E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E01C6791AB72B2400431E96 /* Build configuration list for PBXNativeTarget "MegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E01C67A1AB72B2400431E96 /* Debug */,
+				1E01C67B1AB72B2400431E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E01C64B1AB72B2400431E96 /* Project object */;
+}
